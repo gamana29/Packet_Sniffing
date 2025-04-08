@@ -38,7 +38,6 @@ Edit
 
 ### Prerequisites
 
-```bash
 pip install scapy matplotlib plotly dash pyshark
 For live capture, make sure to run with sudo or appropriate permissions on Unix systems.
 
@@ -159,15 +158,17 @@ Edit
 
 ### 📦 Install Dependencies
 
-```bash
+
 pip install scapy pyshark pandas plotly dash matplotlib
 On Unix systems, live capture may require root privileges. Run the script with sudo or adjust permissions.
 
 ▶️ Run the Sniffer (Live Mode)
+```bash
 bash
 Copy
 Edit
 python main.py
+
 📂 Analyze PCAP File (Offline Mode)
 bash
 Copy
